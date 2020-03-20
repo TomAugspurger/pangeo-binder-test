@@ -1,6 +1,5 @@
 channels:
   - conda-forge
 dependencies:
-  - dask-gateway
+  - pangeo-notebook
   - ipywidgets
-  - dask-labextension
