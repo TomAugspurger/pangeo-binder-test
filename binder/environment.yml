@@ -1,5 +1,6 @@
 channels:
   - conda-forge
 dependencies:
-  - pangeo-notebook
+  - pangeo-notebook==2020.03.27
   - ipywidgets
+  - nbgitpuller
