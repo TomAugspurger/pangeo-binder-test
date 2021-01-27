@@ -11,5 +11,9 @@ dependencies:
   - jupyterlab =2
   - nbgitpuller =0.9.0
   - nodejs >=12
+  - adlfs
+  - rasterio
+  - xarray
   - pip:
     - git+https://github.com/TomAugspurger/dask-labextension.git@pangeo-fixup-test
+    - git+https://github.com/TomAugspurger/rioxarray.git@lockless
